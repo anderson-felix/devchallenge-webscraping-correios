@@ -12,7 +12,7 @@ const options = {
 rp(options)
   .then($ => {
     const inputCep = $('#endereco').val(cep);
-    console.log($);
+     console.log($);
   })
   .catch(err => {
     console.log(err);
